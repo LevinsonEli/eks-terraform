@@ -45,6 +45,7 @@ This project uses Terraform to provision an Amazon EKS (Elastic Kubernetes Servi
 - An existing AWS account.
 - AWS CLI configured with appropriate permissions.
 - S3 bucket configured for state management (<bucket_name>).
+- Optionally you can use the [Infrastructure Project](https://github.com/LevinsonEli/k8s-infra-apps)
 
 ## Getting Started
 
