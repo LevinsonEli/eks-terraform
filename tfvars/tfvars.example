@@ -1,0 +1,29 @@
+
+# GENERAL
+bootcamp_tags = {
+  owner           = ""
+  bootcamp        = ""
+  expiration_date = ""
+}
+
+naming_prefix = "project"
+project_name  = "eks"
+
+# EKS
+region           = "us-east-1"
+vpc_cidr         = ""
+subnet_cidrs     = ["", ""]
+azs              = ["", ""]
+cluster_version  = "1.27"
+desired_capacity = 2
+max_capacity     = 3
+min_capacity     = 1
+instance_type    = ""
+key_name         = ""
+
+# ARGO
+argocd_name      = "argocd"
+argocd_chart     = "argo-cd"
+argocd_repo      = "https://argoproj.github.io/argo-helm"
+argocd_version   = "7.3.11"
+argocd_namespace = "argocd"
